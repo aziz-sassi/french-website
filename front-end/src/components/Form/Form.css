@@ -87,6 +87,9 @@ html, body {
     .mybtn {
     width: 100%;
     margin-top: 30px;
+    border : black solid;
+    border-radius: 50px;
+    height:3rem;
     }
     .mybtn:hover, .btn-item:hover {
     background: #85d6de;

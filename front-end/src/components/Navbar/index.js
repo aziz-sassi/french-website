@@ -10,6 +10,8 @@ import {
     NavBtn,
     NavBtnLink
 } from './NavbarElements';
+import { Button } from 'react-bootstrap';
+
 
 
 export const Navbar = ( { toggle }) => {
@@ -39,6 +41,7 @@ export const Navbar = ( { toggle }) => {
 <>
 <Nav scrollNav={scrollNav}>
     <NavbarContainer>
+        
         <NavLogo to='/' onClick = {toggleHome}>dolla</NavLogo>
         <MobileIcon onClick = {toggle} >
             <FaBars/>
@@ -46,25 +49,28 @@ export const Navbar = ( { toggle }) => {
         </MobileIcon>
         <NavMenu>
         <NavItem>
-                <NavLinks to='/' smooth = {true} duration = {500} spy={true} exact = 'true' offset = {-80} activeClass='active'  onClick = {toggleHome} >
-                    Home</NavLinks>
+                <NavBtnLink to='/' smooth = {true} duration = {500} spy={true} exact = 'true' offset = {-80} activeClass='active'  onClick = {toggleHome} >
+                    Home</NavBtnLink>
                 </NavItem>
         <NavItem>
-                <NavLinks to='about' smooth = {true} duration = {500} spy={true} exact = 'true' offset = {-80} activeClass='active'>
-                    About</NavLinks>
+        <NavBtnLink to= "about">About</NavBtnLink>
                 </NavItem>
          
             <NavItem>
-                <NavLinks to='reservation' smooth = {true} duration = {500} spy={true} exact = 'true' offset = {-80} activeClass='active'>Reservation</NavLinks>
-            </NavItem>
+            <NavBtnLink to= "services">services</NavBtnLink>
+                </NavItem>
             <NavItem>
-                <NavLinks to='services' smooth = {true} duration = {500} spy={true} exact = 'true' offset = {-80} activeClass='active'>Nos Offres</NavLinks>
+            <NavBtnLink to= "contactus">constactus</NavBtnLink>
+                </NavItem>
+            <NavItem class>
             </NavItem>
             </NavMenu>
+          
             <NavBtn>
-              
+            <NavLinks><h1 style={{color: '#01bf71'}}><b>06 61 58 58 85</b></h1></NavLinks>
+
             </NavBtn>
-      
+            
         </NavbarContainer>
 </Nav>
 </>

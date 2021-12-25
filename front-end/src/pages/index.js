@@ -8,6 +8,7 @@ import { homeObjOne, homeObjThree, homeObjTwo } from '../components/infoSection/
 import { formObj} from '../components/Form/data'
 import Services from '../components/Services'
 import Footer from '../components/Footer';
+import SwipeButtons from '../components/Buttons/SwipeButtons';
 
 
 const Home = () => {
@@ -22,11 +23,10 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle = {toggle}/>
             <Navbar toggle={toggle}/>
             <HeroSection/>
-            <InfoSection {...homeObjOne}/>
-            
            
             <Form {...formObj}/>
-            <Services/>
+            <SwipeButtons/>
+
             <Footer />
         </>
     )

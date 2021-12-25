@@ -12,35 +12,9 @@ const Footer = () => {
             <FooterWrap>
                 <FooterLinksContainer>
                 <FooterLinksWrapper>
-                    <FooterLinksItems>
-                            <FooterLinkTitle> About Us </FooterLinkTitle>
-                            <FooterLink to = "/">How it works</FooterLink>
-                            <FooterLink to = "/">Testimonials</FooterLink>
-                            <FooterLink to = "/">Careers</FooterLink>
-                            <FooterLink to = "/">Terms of Services</FooterLink>
-                        </FooterLinksItems>
+                  
                         <FooterLinksItems>
-                            <FooterLinkTitle> About Us </FooterLinkTitle>
-                            <FooterLink to = "/">How it works</FooterLink>
-                            <FooterLink to = "/">Testimonials</FooterLink>
-                            <FooterLink to = "/">Careers</FooterLink>
-                            <FooterLink to = "/">Terms of Services</FooterLink>
-                        </FooterLinksItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                    <FooterLinksItems>
-                            <FooterLinkTitle> About Us </FooterLinkTitle>
-                            <FooterLink to = "/">How it works</FooterLink>
-                            <FooterLink to = "/">Testimonials</FooterLink>
-                            <FooterLink to = "/">Careers</FooterLink>
-                            <FooterLink to = "/">Terms of Services</FooterLink>
-                        </FooterLinksItems>
-                        <FooterLinksItems>
-                            <FooterLinkTitle> About Us </FooterLinkTitle>
-                            <FooterLink to = "/">How it works</FooterLink>
-                            <FooterLink to = "/">Testimonials</FooterLink>
-                            <FooterLink to = "/">Careers</FooterLink>
-                            <FooterLink to = "/">Terms of Services</FooterLink>
+                          
                         </FooterLinksItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -49,10 +23,10 @@ const Footer = () => {
                         <SocialLogo to='/' onClick = {toggleHome}> Dolla </SocialLogo>
                         <WebsiteRights>dolla © {new Date().getFullYear()} Tous droits réservés</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.facebook.com" target="_blank" aria-label="Facebook">
+                            <SocialIconLink href="//https://www.facebook.com/chiheb.saadaoui.7" target="_blank" aria-label="Facebook">
                                 <FaFacebook/>
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/chiheb.saadaoui.7/" target="_blank" aria-label="Instagram">
                                 <FaInstagram/>
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" aria-label="Twitter">

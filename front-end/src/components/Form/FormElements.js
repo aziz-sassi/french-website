@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
 color : #fff;
-background : ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+
+background : ${({lightBg}) => (lightBg ? 'linear-gradient(360deg, #3C4F65 0%,black 100%, #021d1da2 100%)' : 'linear-gradient(360deg, #3C4F65 0%,black 50%)')};
 @media (max-width : 768px) {
     padding : 100px 0;
 }`;
@@ -17,12 +18,15 @@ max-width :1100px;
 margin-right : auto;
 margin-left : auto;
 padding : 0 24px ;
-justify-content : center;
+justify-content: space-around;
 `;
 
 export const InfoRow = styled.div`
+
 display : grid ;
 grid-auto-columns : minmax(auto , 1fr);
+
+
 align-items : center;
 grid-template-areas : ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 

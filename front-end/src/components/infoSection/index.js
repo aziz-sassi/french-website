@@ -14,12 +14,12 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText,darkText,description
                           <Heading lightText={lightText}>{headline}</Heading>
                           <Subtitle darkText={darkText}>{description}</Subtitle>
                           <BtnWrap>
-                         
                           </BtnWrap>
                       </TextWrapper>
                       </Column1>
                       <Column2>
                       <ImgWrap>
+                    
                       <Img src={img} alt={alt}/>
                       </ImgWrap>
                       </Column2>

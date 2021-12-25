@@ -77,4 +77,14 @@ margin-bottom: 10px;
 export const ServicesP = styled.p`
 fonr-size : 1rem;
 text-align : center;
+`;
+
+
+export const Img = styled.img`
+width: 100%;
+height: 85%;
+@media screen and (max-width :1000px){
+   height: auto;
+
+}
 `

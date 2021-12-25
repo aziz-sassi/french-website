@@ -21,10 +21,10 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="about" onClick = {toggle}>
                     About
                     </SidebarLink>
-                    <SidebarLink to="reservation" onClick = {toggle}>
+                    <SidebarLink to="services" onClick = {toggle}>
                     Reservation
                     </SidebarLink>
-                    <SidebarLink to="services" onClick = {toggle}>
+                    <SidebarLink to="contactus" onClick = {toggle}>
                     Nos Offres
                     </SidebarLink>
                 </SidebarMenu>

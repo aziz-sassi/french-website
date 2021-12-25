@@ -86,9 +86,13 @@ justify-content : flex-start;
 export const ImgWrap = styled.div`
 max-width : 555px;
 height : 100%;
+
+border-radius: 50px;
 `;
 
 export const Img = styled.img`
+border-radius: 10px;
+border : grey solid;
 width : 100%;
 margin : 0 0 10px 0;
 padding-right : 0;

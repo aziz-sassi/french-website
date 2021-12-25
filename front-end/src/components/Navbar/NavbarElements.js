@@ -71,7 +71,6 @@ margin-right : -22px;
 
 @media screen and (max-width :768px){
     display: none ;
-
 }
 `;
 
@@ -103,25 +102,14 @@ align-items : center;
 
 
 export const NavBtnLink = styled(LinkR) `
-border-radius :50px;
-background : #01bf71;
-white-space : nowrap;
-padding : 10px 22px;
-color : #010606;
-font-size : 16px;
-outline : none ; 
-border : none;
-cursor: pointer;
-transition: all 0.2s ease-in-out;
+
+color: #fff;
+display: flex; 
+align-items : center; 
 text-decoration : none;
-
-
-&:hover {
-    transition : all 0.2s ease-in-out;
-    background: #fff;
-    color : #010606;
-
-}
+padding: 0 1rem;
+height : 100%;
+cursor : pointer;
 `;
 
 
