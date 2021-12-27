@@ -40,7 +40,6 @@ function App() {
     console.log(e.target)
   }
   const sendMail = (e) => {
-    e.preventDefault();
 
     emailjs.sendForm('service_ec06idv', 'template_j6k88u9', e.target, 'user_ZS3V2jmIlO8mYDvmRJZX5')
       .then((result) => {
@@ -165,11 +164,11 @@ function App() {
       onChange={handleMail}
         />
 
-<div >
+
   <button className = 'form-button'>
     Envoyer
   </button>
-</div>
+
       </form>
         
       
