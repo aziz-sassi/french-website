@@ -1,10 +1,7 @@
 {
   "name": "front-end",
   "version": "0.1.0",
-  "private": false,
-  "engines": {
-    "npm": "7.23.01"
-  },
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -40,12 +37,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
