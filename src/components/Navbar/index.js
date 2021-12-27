@@ -57,10 +57,10 @@ export const Navbar = ( { toggle }) => {
                 </NavItem>
          
             <NavItem>
-            <NavBtnLink to= "services">services</NavBtnLink>
+            <NavBtnLink to= "services">Services</NavBtnLink>
                 </NavItem>
             <NavItem>
-            <NavBtnLink to= "contactus">constactus</NavBtnLink>
+            <NavBtnLink to= "contactus">Contact Us</NavBtnLink>
                 </NavItem>
             <NavItem class>
             </NavItem>
